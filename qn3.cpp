@@ -1,3 +1,17 @@
+/*                          QN.3
+
+Write a function that accepts a character array, a zero-based start position and a length. It should return a character array containing
+lengthcharacters starting with the startcharacter of the input array. The function should do error checking on the start position and the
+length and return null if the either value is not legal.
+    The function signature is:
+    char[ ] f(char[ ] a, int start, int len)
+
+Examples
+if input parameters are	then return:
+{‘a’, ‘b’, ‘c’}, 0, 4 -->	null
+{‘a’, ‘b’, ‘c’}, 0, 3 -->	{‘a’, ‘b’, ‘c’}
+
+*/
 #include<iostream>
 using namespace std;
 
